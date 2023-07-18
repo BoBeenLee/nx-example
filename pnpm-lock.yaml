@@ -118,7 +118,7 @@ importers:
       msw: ^0.49.0
       msw-storybook-addon: ^1.8.0
       next: 13.3.0
-      next-images: 1.8.4
+      next-images: 1.8.5
       next-pwa: 5.6.0
       next-themes: ^0.2.1
       nx: 16.5.2
@@ -177,7 +177,7 @@ importers:
       memoize-one: 6.0.0
       mobile-detect: 1.4.5
       next: 13.3.0_6m24vuloj5ihw4zc5lbsktc4fu
-      next-images: 1.8.4_webpack@5.88.1
+      next-images: 1.8.5_webpack@5.88.1
       next-pwa: 5.6.0_aqvamfamkn4qkp6ewjukprso7a
       next-themes: 0.2.1_yucv4tfv7v7nrkw2uguegj6e7e
       qs: 6.11.2
@@ -20817,6 +20817,7 @@ packages:
 
   /nan/2.17.0:
     resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -20886,8 +20887,8 @@ packages:
     engines: {node: '>= 0.4.0'}
     dev: true
 
-  /next-images/1.8.4_webpack@5.88.1:
-    resolution: {integrity: sha512-E6JV+aMxeUCh8A+cwn1xgmlh/zINSW4JC/XLNbM+PWQd5LBdfB+m1IDCAfNnGOKMo96kzw+4LsKxnX/Kldw78Q==}
+  /next-images/1.8.5_webpack@5.88.1:
+    resolution: {integrity: sha512-YLBERp92v+Nu2EVxI9+wa32KRuxyxTC8ItbiHUWVPlatUoTl0yRqsNtP39c2vYv27VRvY4LlYcUGjNRBSMUIZA==}
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
